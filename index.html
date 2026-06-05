@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaio E-Commerce</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div id="logo">
+                <span>Z</span>
+                <span>A</span>
+                <span>I</span>
+                <span>O</span>
+                <span>E</span>
+                
+                <span>-</span>
+                <span>C</span>
+                <span>O</span>
+                <span>M</span>
+                <span>M</span>
+                <span>E</span>
+                <span>R</span>
+                <span>C</span>
+                <span>E</span>
+            </div>
+            <div id="search">
+                <button id="search-btn">Go</button>
+                <input type="text" id="search-bar" placeholder="Enter your sneaker">
+            </div>
+            <div id="account">
+                <a href="#sign-in" id="account-btn">Sign In</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="banner"></section>
+
+    <section id="control-btns">
+        <div class="container">
+            <div id="currency-selection">
+                <select name="currency" id="currency-options">
+                    <option value="" selected disabled>Change Currency (Default ZAR)</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="ZAR">ZAR</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular">
+        <div class="container">
+            <h2>Popular Products</h2>
+            <div id="popular-products">
+                <!--Item 1-->
+                <div class="popular-product">
+                    <img src="img/Fragment-x-Travis-Scott-military-blue.png" alt="No Image Found">
+                    <span>Fragment x Travis Scott (Military Blue)</span>
+                    <div class="prices-container">
+                        <span class="currency-code">USD</span>
+                        <span class="product-price" data-usd>200</span>
+                    </div>
+                </div>
+
+                <!--Item 2-->
+                <div class="popular-product">
+                    <img src="img/nike-blazer-77.png" alt="No Image Found">
+                    <span>Nike Blazer 77</span>
+                    <div class="prices-container">
+                        <span class="currency-code">USD</span>
+                        <span class="product-price" data-usd>120</span>
+                    </div>
+                </div>
+
+                <!--Item 1-->
+                <div class="popular-product">
+                    <img src="img/union-grey-jordan-2.png" alt="No Image Found">
+                    <span>Union Grey Jordan 2</span>
+                    <div class="prices-container">
+                        <span class="currency-code">USD</span>
+                        <span class="product-price" data-usd>150</span>
+                    </div>
+                </div>
+
+                <!--Item 1-->
+                <div class="popular-product">
+                    <img src="img/parra-abstract-art-sb-dunk.png" alt="No Image Found">
+                    <span>Parra Abstract Art SB Dunk</span>
+                    <div class="prices-container">
+                        <span class="currency-code">USD</span>
+                        <span class="product-price" data-usd>250</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

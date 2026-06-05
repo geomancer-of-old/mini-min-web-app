@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 10px;
+}
+
+nav #account-btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 136, 169);
+    display: inline-block;
+    padding: 12px 16px;
+    border-radius: 16px;
+    transition: 0.5s;
+}
+
+nav #account-btn:hover{
+    transform: scale(1.05);
+}
+
+nav #search-bar{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+nav #search-btn{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(0, 136, 169);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav #logo{
+    cursor: pointer;
+}
+
+nav #logo span{
+    transition: 0.5s;
+}
+
+nav #logo span:hover{
+    color: rgb(0, 136, 169);
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/sales_banners.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#popular #popular-products{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#popular .popular-product{
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.popular-product img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.popular-product span{
+    font: 14px;
+    font-weight: bold;
+}
+
+.popular-product .prices-container{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
